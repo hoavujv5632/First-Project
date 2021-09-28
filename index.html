@@ -1,87 +1,42 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>CSS position absolute/ Fixed/ Sticky</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="main.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Band</a></li>
+                <li><a href="">Tour</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <a href="">More</a>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
-        <style>
-            html, body {
-                margin: 0;
-            }
+        <div id="slider">
+            
+        </div>
 
-            li:nth-of-type(3) {
-                color: aqua;
-            }
-/* 
-            .box {
-                width: 100%;
-                height: 120px;
-                background-color: blue;
-                position: relative;
-            }
+        <div id="content">
 
-            .box-child {
-                width: 50px;
-                height: 50px;
-                position: absolute;
-                background-color: #fff;
-                top: 0;
-                right: 0;
-            }
+        </div>
 
-            .box2 {
-                width: 400px;
-                height: 100px;
-                background-color: violet;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-            } */
-
-            /* .header {
-                width: 100%;
-                height: 42px;
-                background-color: #333;
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-            } */
-
-            h1 {
-                margin-top: 40px;
-                padding: 0 16px;
-                color: #fff;
-                background-color: #333;
-                position: sticky;
-                position: -webkit-sticky;
-                top: 10px;
-            }
-
-            ul {
-                height: 2000px;
-            }
-        </style>
-    </head>
-
-    <body>
-        <div class="header"></div>
-        <!-- <div class="box">
-
-            <div>
-                <div class="box2">
-                    <div class="box-child"></div>
-                </div>
-            </div>
-        </div> -->
-
-        <h1>Position</h1>
-        <ul>
-            <li>Relative</li>
-            <li>Absolute</li>
-            <li>Fixed</li>
-            <li>Sticky</li>
-        </ul>
-    </body>
+        <div id="footer">
+            
+        </div>
+    </div>
+</body>
 </html>
